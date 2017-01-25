@@ -4,11 +4,11 @@ By Congyang Wang --- 2017/01/17
 
 *Assignment 2: This is my first work of WPI CS573 Data Visualization, in A1, I used D3.js and JavaScript to draw shapes, made interactive motion like drag, then submitted the work through github and deployed this to github page.*
 
-* [1. D3.js](##1. D3.js)
+* [1. D3.js](#c)
 * [2. R + ggplot2](#2. R + ggplot2)
 
 ## 1. D3.js
-
+#c
 - **Screenshots:**  
 ![](d3js/a2-congyang.jpg)
 - **Note:**
@@ -18,13 +18,14 @@ http://matthewgladney.com/blog/data-science/no-nonsense-guide-getting-started-sc
 - **Technical and Design achievements:**
 XXX
 
-## 2. R + ggplot2
+2. R + ggplot2
+---
 - **Screenshots:**  
 ![](r-ggplot2/a2-congyang.jpg)
 R is a language primarily focused on statistical computing.
 ggplot2 is a popular library for charting in R.
 R Markdown is a document format that compiles to HTML or PDF and allows you to include the output of R code directly in the document.
-
+# cc
 To visualized the cars dataset, I made use of ggplot2's `geom_point()` layer, with aesthetics functions for the color and size.
 
 While it takes time to find the correct documentation, these functions made the effort creating this chart minimal.
