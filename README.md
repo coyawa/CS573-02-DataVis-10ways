@@ -4,10 +4,10 @@ By Congyang Wang --- 2017/01/17
 
 *Assignment 2: This is my first work of WPI CS573 Data Visualization, in A1, I used D3.js and JavaScript to draw shapes, made interactive motion like drag, then submitted the work through github and deployed this to github page.*
 
-* [1. D3.js](##_1._D3.js)
+* [1. D3.js](##1._D3.js)
 * [2. R + ggplot2](#2. R + ggplot2)
 
-## 1. D3.js
+##1. D3.js
 - **Screenshots:**  
 ![](d3js/a2-congyang.jpg)
 - **Note:**
