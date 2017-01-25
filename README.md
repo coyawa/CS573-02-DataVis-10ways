@@ -2,15 +2,12 @@
 
 By Congyang Wang --- 2017/01/17
 
+*Assignment 2: This is my first work of WPI CS573 Data Visualization, in A1, I used D3.js and JavaScript to draw shapes, made interactive motion like drag, then submitted the work through github and deployed this to github page.*
 
+* [1. D3.js](##1. D3.js)
+* [2. R + ggplot2](#2. R + ggplot2)
 
-# Description
-**Assignment 2: ** This is my first work of WPI CS573 Data Visualization, in A1, I used D3.js and JavaScript to draw shapes, made interactive motion like drag, then submitted the work through github and deployed this to github page.
-
-
-[TOC]
-
-## D3.js
+## 1. D3.js
 
 - **Screenshots:**  
 ![](d3js/a2-congyang.jpg)
@@ -21,7 +18,7 @@ http://matthewgladney.com/blog/data-science/no-nonsense-guide-getting-started-sc
 - **Technical and Design achievements:**
 XXX
 
-## R + ggplot2
+## 2. R + ggplot2
 - **Screenshots:**  
 ![](r-ggplot2/a2-congyang.jpg)
 R is a language primarily focused on statistical computing.
@@ -93,13 +90,14 @@ Write a paragraph for each visualization tool you use. What was easy?Difficult? 
 - **Technical and Design achievements:**
 XXX
 
-## D3.js
+## Quadrigram
 
 - **Screenshots:**  
-[ ] [ ]
+![](quadrigram/a2-congyang.jpg)
 - **Note:**
 Write a paragraph for each visualization tool you use. What was easy?Difficult? Where could you see the tool being useful in the future? Did you have to use any hacks or data manipulation to get the right chart?
 
+http://www.quadrigram.com/hosting/%E5%B0%8F%E4%BB%8E%E4%BB%8E/a2/#p/Page1
 - **Technical and Design achievements:**
 XXX
 
