@@ -2,7 +2,7 @@
 
 By Congyang Wang --- 2017/01/17
 
-*Assignment 2: This is my first work of WPI CS573 Data Visualization, in A1, I used D3.js and JavaScript to draw shapes, made interactive motion like drag, then submitted the work through github and deployed this to github page.*
+*Assignment 2: This is the second work of WPI CS573 Data Visualization, in A2, I used 10 tools to make the same scatter/bubble plot with size and color requirement, 1/3 of them have interactive function, 1/3 of them are deployed on the web with their own web server. 1/3 of them built with 0 code. This is a challenge for anyone, at the same time, it is a chance to familiar with different tools, to know the pros and cons.
 
 **Table of Content**
 * [1. D3.js](#d3.js)
@@ -87,14 +87,17 @@ To make this viz, the first and important step is to make the .csv transfer to t
 - **Screenshots:**  
 ![](matlab/a2-congyang.jpg)
 - **Note:**
-Matlab, another big shot on analysis area, 
+Matlab, another big shot on analysis area, no need more words.
+To me, this is not a easy use software to make the graphic which I want, to make this viz, after a long journey of learn the steps and sample code, first, I import the data, then use `for: loop` to build the scatter plot, then choose the color and transparence, then the tick, done. 
+
 * https://www.mathworks.com/examples/matlab/mw/graphics-ex36949892-create-scatter-chart-with-transparency
 #Quadrigram
 
 - **Screenshots:**  
 ![](quadrigram/a2-congyang.jpg)
 - **Note:**
-Write a paragraph for each visualization tool you use. What was easy?Difficult? Where could you see the tool being useful in the future? Did you have to use any hacks or data manipulation to get the right chart?
+Among these online visualize and analysis tool, Quadrigram si the best one with my experience. Quadrigram is an online visualization data tool that will help user to improve and make interactive presentations for every purpose.
+To make this viz, all I need to do is to use the easy understanding model in the tool to tweak every detail part of a graphic, not only for a individual viz, it can also use for a dashboard or some other data report, at the end, it will generate a public link to show the report to more audience.
 
 * http://www.quadrigram.com/hosting/%E5%B0%8F%E4%BB%8E%E4%BB%8E/a2/#p/Page1
 
@@ -103,7 +106,9 @@ Write a paragraph for each visualization tool you use. What was easy?Difficult? 
 - **Screenshots:**  
 ![](python-bokeh/a2-congyang.png)
 - **Note:**
-Write a paragraph for each visualization tool you use. What was easy?Difficult? Where could you see the tool being useful in the future? Did you have to use any hacks or data manipulation to get the right chart?  
+I love Bokeh. Bokeh is a Python interactive visualization library that targets modern web browsers for presentation. Its goal is to provide elegant, concise construction of novel graphics in the style of D3.js.
+To make this viz, with the help of `jupyter-notebook`, I just need to check the very easy-read documents and user guide to satisfy my demand, like other python package, read the .csv, use `colormap` model to divided the data into five different colors. After I finished the coding, the Bokeh will generate a html with a interactive page.
+
 * http://bokeh.pydata.org/en/latest/docs/user_guide.html#userguide
 
 #Visualizefree
@@ -111,12 +116,13 @@ Write a paragraph for each visualization tool you use. What was easy?Difficult? 
 - **Screenshots:**  
 ![](visualizefree/a2-congyang.jpg)
 - **Note:**
-Write a paragraph for each visualization tool you use. What was easy?Difficult? Where could you see the tool being useful in the future? Did you have to use any hacks or data manipulation to get the right chart?
+Visualizefree is a java based online visualize tool, the target is to help the business to make the real time dashboard.
+To make this viz, as other online tool, I need upload the .csv to generate the dataset inside the tool, then set the axes, choose the right column to make them as the X Axis and Y Axis, it's not difficult but with the non-perfect UX, it took me 2 hours to tune the right display.
 
 #Technical and Design achievements:
 1. Make them like the sample which the Professor showed us. It may not a very hard work to make a scatter / bubble plot with these powerful tools, but to make them looks the same is not a easy job, the fancy colors, canvas size, the axes and  tick, the font format and the legend. Even the legend is not a required one, but I also do my best to make 9/10 have legend, because it is a good way to show the viz clearly.
 2. I am not coder in the last 28 years, this year is my second year with coding, thus, I love this challenge, its my technical achievement to make one plot with these totally different tools, I even found more ways inspired me to go further. 
-3. Links: http://www.creativebloq.com/design-tools/data-visualization-712402
-4. https://source.opennews.org/en-US/articles/what-i-learned-recreating-one-chart-using-24-tools/
+* Links: http://www.creativebloq.com/design-tools/data-visualization-712402
+* Links: https://source.opennews.org/en-US/articles/what-i-learned-recreating-one-chart-using-24-tools/
 
 
